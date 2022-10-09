@@ -50,7 +50,7 @@ export default function Skills() {
         </ThemeProvider>
       </>})}
 
-      <Button href="/" variant="contained" color="success">
+      <Button href="/success" variant="contained" color="success">
         Submit
       </Button>
       </Box>
