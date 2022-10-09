@@ -11,6 +11,8 @@ import UserProfile from './components/UI/UserProfile';
 import Rent from './components/Rent';
 import Contact from './components/Contact.js';
 import Skills from './components/Skills';
+import Success from './components/Success';
+
 
 function App() {
 
@@ -76,6 +78,7 @@ function App() {
           <Route path="signin" element={<SignIn userProfile={userProfile} jwttoken={jwttoken} profileUpdate={profileUpdate} changeLogin={changeLogin} logoutProfile={logoutProfile}  />} />
           <Route path="createaccount" element={<Createaccount />} />
           <Route path="about" element={<About />} />
+          <Route path='/success' element={<Success />} />
           <Route path="rent" element={<Rent />} />
           <Route path="skills" element={<Skills />} />
           <Route path="contact" element={<Contact />} />
